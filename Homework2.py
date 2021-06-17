@@ -1,13 +1,9 @@
 #####1
 print("Task 1: Type list \n---------\n")
 li=[2,2.7,complex(2,4),'Rock']
-# print(li[0])
-#str = None
+
 for i in li:
     print(type(i))
-
-# for i in range (0, len(li)):
-#     print(type(li[i]))
 
 for i in 1, 2, 3, 'one', 'two', 'three':
     print(i, type(i))
@@ -50,8 +46,7 @@ while n not in range(1,13):
         n = int(input("Enter month number: "))
     except ValueError:
         continue
-#for i, v in enumerate(li, 1):
-#    print(i, v)
+
 seasons = ['winter', 'spring', 'summer' 'autumn']
 #if (n == 12 or n == 1 or n == 2):
 #    print(f'It is {lis[0]}')
@@ -72,9 +67,7 @@ elif n in [6, 7, 8]:
 else:
     print(li[n - 1], f"is {seasons[3]} month")
 
-# dc={'Summer': 1 or 2 or 3}
-# if n == 1 or 2:
-#    print(dc.keys())
+
 
 mons = {(12,1,2):'Winter',
         (3,4,5):'Spring',
@@ -120,6 +113,10 @@ print(my_list)
 
 
 ###### 6
+line = "="*50
+print(line)
+print("Task 6: Database \n---------\n")
+
 li=[]
 # lil=[]
 list_name=[]
@@ -188,7 +185,3 @@ print(di)
 
 # for id, val in enumerate(li, 1):
 #     print(id, val)
-
-
-
-# di = {}
