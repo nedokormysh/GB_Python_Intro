@@ -87,14 +87,12 @@ print(line)
 print("Task 5: Summ String \n---------\n")
 
 res = 0
-#resu = 0
+
 def Summa(*integers):
-    global res #, resu
-    # res = 0
+    global res
     for i in integers:
         res += i
-    # resu == sum(integers)
-    return res#, resu
+    return res
 
 IsOn = True
 while IsOn:
@@ -105,7 +103,7 @@ while IsOn:
             IsOn = False
             break
         Summa(int(i))
-    print(res)
+    print(f'Сумма равна {res}')
 
 # print(resu)
 
