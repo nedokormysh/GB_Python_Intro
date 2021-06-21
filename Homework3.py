@@ -1,15 +1,13 @@
 #####1
 print("Task 1: Devide \n---------\n")
 def devide(a,b):
-    try:
-        return a/b
-    except ZeroDivisionError:
-        print('Нельзя делить на 0')
-
+    return a/b
 x = float(input('x: '))
-y = float(input('y: '))
-print(devide(x,y))
-
+try:
+    y = float(input('y: '))
+    print(devide(x,y))
+except ZeroDivisionError:
+        print('ВНИМАНИЕ: нельзя делить на ноль')
 
 ####2
 line = "=" * 50
