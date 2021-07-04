@@ -146,10 +146,6 @@ class PoliceCar(Car):
         super().__init__(speed, color, name, isPolice)
         self.music = music
 
-# a = Car(60, 'green', 'BMW', False)
-# print(a.default_name)
-# print(a.name)
-
 Audi = SportCar(100, 'red', 'Audi', True)
 Renault = WorkCar(50, 'blue','Renault', False)
 Lada = PoliceCar(150, 'yellow', 'Lada', True, True)
