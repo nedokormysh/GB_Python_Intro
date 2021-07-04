@@ -11,10 +11,12 @@ class TrafficLight:
 
         li_time = [7, 2, 3]
 
-        while True:
+        j = 0
+        while j < 3:
             for i in range(0, 3):
                 print("Color of traffic light is",TrafficLight.__color[i])
                 time.sleep(li_time[i])
+            j += 1
 
 a = TrafficLight()
 a.running()
