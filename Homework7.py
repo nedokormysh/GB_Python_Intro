@@ -199,7 +199,7 @@ class Cell():
     def __truediv__(self, other):
         # return Cell(int(self.quantity // other.quantity))
         try:
-            return Cell(int(self.quantity//other.quantity))
+            return Cell(int(self.quantity/other.quantity))
         except ZeroDivisionError:
             return f'Поделить на клетку без ячеек нельзя'
         except AttributeError:
